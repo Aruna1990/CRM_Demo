@@ -1,0 +1,25 @@
+.sidebar{
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 40px;
+  width: 200px;
+  background-color: #2a2d32;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .nav-item{
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 22px;
+  color: #ffffff;
+  background-color: #333333;
+  border-bottom: 1px #2a2d32 solid;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+.sidebar .nav-item.active{
+  background-color: #d8462f;
+}

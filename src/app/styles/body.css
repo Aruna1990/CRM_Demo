@@ -1,0 +1,29 @@
+.main-section{
+  position: absolute;
+  top: 60px;
+  bottom: 40px;
+  left: 200px;
+  right: 0;
+  padding: 25px 40px;
+  overflow: auto;
+  min-width: 500px;
+  box-sizing: border-box;
+}
+
+header, footer{
+  min-width: 700px;
+}
+.font-gray{
+  color: gray;
+}
+table, tr, th, td{
+  /*box-sizing: border-box;*/
+  /*overflow: hidden;*/
+  /*padding: 0 20px;*/
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  background-color: #f2f2f2;
+}

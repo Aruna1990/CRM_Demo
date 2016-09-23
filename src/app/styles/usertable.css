@@ -1,0 +1,23 @@
+.user-info-cell{}
+.user-info-cell .avatar{
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+.avatar>img{
+  height: 100%;
+  width: 100%;
+}
+.user-info-cell .avatar+div{
+  margin-left: 60px;
+}
+.user-info-cell .name>a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.user-info-cell .name>a:hover{
+  color: blue;
+}
+.user-info-cell .remarks{
+
+}

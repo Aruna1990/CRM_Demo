@@ -1,0 +1,40 @@
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  line-height: 60px;
+  background-color: #1b1c1b;
+  color: #FFFFFF;
+}
+
+header .logo{
+  float: left;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+header>nav{
+  float: left;
+  margin: 0 50px;
+}
+header>nav>a{
+  color: #999999;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+header>nav>a:hover,
+header>nav>a:active,
+header>nav>a.active{
+  color: #FFFFFF;
+}
+header>nav>a.active{
+  background-color: #000000;
+}
